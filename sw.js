@@ -1,11 +1,11 @@
-const CACHE = 'coleta-v3';
+const CACHE = 'coleta-v4';
 const LIBS = [
     'https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js',
     'https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.2/jspdf.plugin.autotable.min.js'
 ];
 const ARQUIVOS = [
     './', 'index.html', 'principal.html', 'relatorio.html',
-    'css/style.css', 'js/common.js', 'js/login.js', 'js/principal.js', 'js/relatorio.js'
+    'css/style.css', 'js/tema.js', 'js/common.js', 'js/login.js', 'js/principal.js', 'js/relatorio.js'
 ];
 
 self.addEventListener('install', (e) => {
